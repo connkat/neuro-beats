@@ -1,0 +1,28 @@
+.Nav {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-bottom: 0;
+  background-color: #081e3b;
+  height: 17vh;
+  color: #ffdd59;
+  justify-content: space-between;
+  padding: 0 10vh;
+}
+
+h3 {
+  color: #f8e4e7;
+  font-weight: 250;
+}
+
+.logo {
+  max-height: 100%;
+}
+
+.title {
+  align-self: center;
+}
+
+.contact {
+  align-self: center;
+}

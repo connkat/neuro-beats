@@ -1,2 +1,3 @@
-# neuro-beats
-Landing page for Techstars Startup Weekend project. 
+# Neuro-Beats
+
+A landing page for Techstars Startup Weekend concept. Build with CRA with JS.

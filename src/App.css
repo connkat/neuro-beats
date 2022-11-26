@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  /* background-color: #081e3b; */
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 200px;
+}
+
+a {
+  color: #f8e4e7;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffdd59;
+}
+
+a:visited {
+  text-decoration: none;
+}
