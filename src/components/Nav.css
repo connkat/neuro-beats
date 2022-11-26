@@ -1,4 +1,16 @@
-.Nav {
+.desktop-nav {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-bottom: 0;
+  background-color: #081e3b;
+  height: 17vh;
+  color: #ffdd59;
+  justify-content: space-between;
+  padding: 0 10vh;
+}
+
+.mobile-nav {
   display: flex;
   flex-direction: row;
   position: relative;
