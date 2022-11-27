@@ -66,13 +66,14 @@ function App() {
         <div className="Section">
           <div className="video__section">
             <iframe
-              width="600"
-              height="350"
+              width="300"
+              height="300"
               src={`https://www.youtube.com/embed/_78xHMjKjvA`}
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               title="Embedded youtube"
+              className="video"
             />
           </div>
           <div className="Section__text">

@@ -82,4 +82,8 @@ a:visited {
     align-items: center;
     justify-content: center;
   }
+
+  .video__section {
+    padding: 0vh;
+  }
 }
