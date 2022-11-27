@@ -1,29 +1,31 @@
-.Nav {
-  display: flex;
-  flex-direction: row;
-  background-color: #081e3b;
-  height: 17vh;
-  color: #ffdd59;
-  justify-content: space-between;
-  padding: 0 10vh;
-  border-radius: 10px;
-}
+@media only screen and (min-width: 601px) {
+  .Nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #081e3b;
+    height: 17vh;
+    color: #ffdd59;
+    justify-content: space-between;
+    padding: 0 10vh;
+    border-radius: 10px;
+  }
 
-h3 {
-  color: #f8e4e7;
-  font-weight: 250;
-}
+  h3 {
+    color: #f8e4e7;
+    font-weight: 250;
+  }
 
-.logo {
-  max-height: 100%;
-}
+  .logo {
+    max-height: 100%;
+  }
 
-.title {
-  align-self: center;
-}
+  .title {
+    align-self: center;
+  }
 
-.contact {
-  align-self: center;
+  .contact {
+    align-self: center;
+  }
 }
 
 @media only screen and (max-width: 600px) {
