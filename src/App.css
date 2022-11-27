@@ -1,7 +1,8 @@
 .App {
   text-align: center;
-  /* background-color: #081e3b; */
-  font-family: 'Montserrat', sans-serif;
+  background-color: #0f376c;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -14,4 +15,9 @@ a:hover {
 
 a:visited {
   text-decoration: none;
+}
+
+/* //// Mobile ///// */
+.emotiv {
+  max-width: 40%;
 }

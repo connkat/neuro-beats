@@ -8,7 +8,9 @@
   color: #ffdd59;
   justify-content: space-between;
   padding: 0 10vh;
+  border-radius: 10px;
 }
+
 
 .mobile-nav {
   display: flex;
@@ -18,8 +20,11 @@
   background-color: #081e3b;
   height: 17vh;
   color: #ffdd59;
-  justify-content: space-between;
-  padding: 0 10vh;
+  justify-content: center;
+}
+
+.mobile-nav .title {
+  align-self: center;
 }
 
 h3 {
