@@ -1,36 +1,29 @@
-// import { useState, useEffect } from "react";
+import Reveal from "react-reveal/Reveal";
 
 import Nav from "./components/Nav";
-// import DesktopHome from "./components/DesktopHome";
-import MobileHome from "./components/MobileHome";
 
 import "./App.css";
 
 function App() {
-  // const [state, setState] = useState({
-  //   mobileView: false,
-  // });
-  // const { mobileView } = state;
-
-  // useEffect(() => {
-  //   const setResponsiveness = () => {
-  //     return window.innerWidth < 600
-  //       ? setState((prevState) => ({ ...prevState, mobileView: true }))
-  //       : setState((prevState) => ({ ...prevState, mobileView: false }));
-  //   };
-
-  //   setResponsiveness();
-  //   window.addEventListener("resize", () => setResponsiveness());
-
-  //   return () => {
-  //     window.removeEventListener("resize", () => setResponsiveness());
-  //   };
-  // }, []);
   return (
     <div className="App">
       <Nav />
-      {/* {mobileView ? <MobileHome /> : <DesktopHome />} */}
-      <MobileHome />
+      <Reveal delay={10000} duration={5000}>
+        <div className="Section">
+          <img src="./images/emotiv.png" alt="emotiv" className="emotiv" />
+          <div className="Section__text">
+            <h1>Control music without lifting a finger.</h1>
+          </div>
+        </div>
+      </Reveal>
+      <Reveal right delay={4000} duration={5000}>
+        <div className="Section-reverse">
+          <div className="Section__text">
+            <h1>Explore creativity like never before.</h1>
+          </div>
+          <img src="./images/brain-wave.png" alt="emotiv" className="emotiv" />
+        </div>
+      </Reveal>
     </div>
   );
 }

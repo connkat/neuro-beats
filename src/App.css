@@ -21,3 +21,44 @@ a:visited {
 .emotiv {
   max-width: 40%;
 }
+
+.Section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Section-reverse {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Section__text {
+  padding: 10vh;
+}
+
+.Section__text h1{
+  color: #ffdd59;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .Section {
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Section-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
