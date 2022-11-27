@@ -62,6 +62,24 @@ function App() {
           <img src="./images/brain-wave.png" alt="emotiv" className="emotiv" />
         </div>
       </Reveal>
+      <Reveal left delay={4000} duration={5000}>
+        <div className="Section">
+          <div className="video__section">
+            <iframe
+              width="600"
+              height="350"
+              src={`https://www.youtube.com/embed/_78xHMjKjvA`}
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              title="Embedded youtube"
+            />
+          </div>
+          <div className="Section__text">
+            <h1>Play the music of your dreams</h1>
+          </div>
+        </div>
+      </Reveal>
       <Footer />
     </div>
   );

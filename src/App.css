@@ -50,6 +50,10 @@ a:visited {
   left: -999em;
 }
 
+.video__section {
+  padding: 10vh;
+}
+
 @media only screen and (max-width: 821px) {
   .soundToggle__mobile {
     display: relative;
