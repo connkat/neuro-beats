@@ -14,6 +14,7 @@ function Footer() {
           alt="startup-weekend"
           className="startup-weekend"
         />
+        <img src="./images/platform.svg" alt="platform" className="platform" />
       </div>
       <div className="footer-text">
         <a

@@ -8,10 +8,21 @@
   padding: 0 10vh;
 }
 
+.footer-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2vh 0;
+}
+
 .startup-weekend {
   max-width: 30vh;
 }
 .techstars {
+  max-width: 15vh;
+}
+
+.platform {
   max-width: 15vh;
 }
 
@@ -20,12 +31,13 @@
 }
 
 .footer-text {
-    align-self: center;
+  align-self: center;
 }
 
 @media only screen and (max-width: 821px) {
   .Footer {
     flex-direction: column;
+    padding: 2vh;
   }
 
   .footer-logos {
