@@ -33,7 +33,8 @@ h3 {
 
   .Nav {
     justify-content: center;
-    max-width: 100%;
+    flex-direction: column;
+    max-height: 50%;
   }
   .Nav h3 {
     display: hidden;
@@ -42,21 +43,11 @@ h3 {
   }
 
   .logo {
-    max-height: 80%;
+    max-width: 25%;
   }
 
   .Nav .title {
-    /* font-size: smaller; */
-    display: hidden;
-    display: hidden;
-    position: absolute;
-    left: -999em;
-  }
-  .Nav .contact {
-    display: hidden;
-    position: absolute;
-    left: -999em;
-    padding-bottom: 10vh;
+    font-size: smaller;
   }
 
   .soundToggle__desktop {
