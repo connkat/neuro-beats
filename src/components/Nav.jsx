@@ -1,8 +1,3 @@
-import { useState, useEffect } from "react";
-
-import DesktopNav from "./DesktopNav";
-import MobileNav from "./MobileNav";
-
 import "./Nav.css";
 
 function Nav() {

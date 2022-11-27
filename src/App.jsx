@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <Reveal delay={10000} duration={5000}>
+      <Reveal left delay={100000} duration={5000}>
         <div className="Section">
           <img src="./images/emotiv.png" alt="emotiv" className="emotiv" />
           <div className="Section__text">
