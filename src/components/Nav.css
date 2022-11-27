@@ -1,4 +1,4 @@
-.desktop-nav {
+.Nav {
   display: flex;
   flex-direction: row;
   position: relative;
@@ -9,22 +9,6 @@
   justify-content: space-between;
   padding: 0 10vh;
   border-radius: 10px;
-}
-
-
-.mobile-nav {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  margin-bottom: 0;
-  background-color: #081e3b;
-  height: 17vh;
-  color: #ffdd59;
-  justify-content: center;
-}
-
-.mobile-nav .title {
-  align-self: center;
 }
 
 h3 {
@@ -42,4 +26,31 @@ h3 {
 
 .contact {
   align-self: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    align-self: center;
+  }
+
+  .Nav {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 0;
+    background-color: #081e3b;
+    height: 17vh;
+    color: #ffdd59;
+    justify-content: center;
+  }
+  .Nav h3 {
+    display: hidden;
+    position: absolute;
+    left: -999em;
+  }
+  .Nav .contact {
+    display: hidden;
+    position: absolute;
+    left: -999em;
+  }
 }
