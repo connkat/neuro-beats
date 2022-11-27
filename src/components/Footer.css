@@ -19,6 +19,10 @@
   color: black;
 }
 
+.footer-text {
+    align-self: center;
+}
+
 @media only screen and (max-width: 821px) {
   .Footer {
     flex-direction: column;

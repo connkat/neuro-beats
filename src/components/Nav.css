@@ -34,7 +34,7 @@ h3 {
   .Nav {
     justify-content: center;
     flex-direction: column;
-    max-height: 50%;
+    max-height: 20vh;
   }
   .Nav h3 {
     display: hidden;
