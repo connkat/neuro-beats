@@ -1,6 +1,16 @@
+import { useState } from "react";
+
+import Switch from "react-switch";
+
 import "./Nav.css";
 
-function Nav() {
+function Nav({ soundToggleToggleHandler }) {
+  const [soundToggleChecked, setSoundToggleChecked] = useState(false);
+
+  const handleSoundToggle = (checked) => {
+    setSoundToggleChecked(checked);
+    soundToggleToggleHandler(checked);
+  };
   return (
     <div className="Nav">
       <div className="nav-logo">
@@ -12,10 +22,15 @@ function Nav() {
         <h1>NEUROBEATS</h1>
         <h3>CREATE MUSIC WITH YOUR BRAIN</h3>
       </div>
-      <div className="contact">
-        <a href="mailto:neurobeatsco@gmail.com" target="_blank" rel="noreferrer">
-          Contact
-        </a>
+      <div className="soundToggle">
+        <p>Demo synth</p>
+        <Switch
+          uncheckedIcon={false}
+          checkedIcon={false}
+          name="soundToggle"
+          checked={soundToggleChecked}
+          onChange={handleSoundToggle}
+        />
       </div>
     </div>
   );

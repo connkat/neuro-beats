@@ -1,4 +1,8 @@
 .Nav {
+  /* position: fixed;
+  left: 0;
+  top: 0;
+  width: 95%; */
   display: flex;
   flex-direction: row;
   background-color: #081e3b;
@@ -7,6 +11,7 @@
   justify-content: space-between;
   padding: 0 10vh;
   border-radius: 10px;
+  z-index: 1000;
 }
 
 h3 {
@@ -40,6 +45,12 @@ h3 {
     left: -999em;
   }
   .Nav .contact {
+    display: hidden;
+    position: absolute;
+    left: -999em;
+  }
+
+  .soundToggle {
     display: hidden;
     position: absolute;
     left: -999em;
