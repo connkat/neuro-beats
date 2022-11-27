@@ -10,6 +10,7 @@ import song from "./audio/tonto.mp3";
 import "./App.css";
 
 function App() {
+  /* eslint-disable @typescript-eslint/no-unused-vars */
   const [audio, setAudio] = useState(new Audio(song));
   const [isSoundToggle, setIsSoundToggle] = useState(false);
 
