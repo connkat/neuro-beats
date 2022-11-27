@@ -1,20 +1,39 @@
 .Footer {
-    background-color: white;
-    text-align: center;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  max-height: 10vh;
+  justify-content: space-between;
+  padding: 0 10vh;
+}
+
+.startup-weekend {
+  max-width: 30vh;
+}
+.techstars {
+  max-width: 15vh;
+}
+
+.Footer p {
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .Footer {
+    flex-direction: column;
+  }
+
+  .footer-logos {
     display: flex;
     flex-direction: row;
-    max-height: 10vh;
     justify-content: space-between;
-    padding: 0 10vh;
   }
 
   .startup-weekend {
-    max-width: 30vh;
-  }
-  .techstars {
     max-width: 15vh;
   }
-
-  .Footer p {
-    color: black;
+  .techstars {
+    max-width: 7vh;
   }
+}

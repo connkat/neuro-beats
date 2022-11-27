@@ -22,8 +22,8 @@ function Nav({ soundToggleToggleHandler }) {
         <h1>NEUROBEATS</h1>
         <h3>CREATE MUSIC WITH YOUR BRAIN</h3>
       </div>
-      <div className="soundToggle">
-        <p>Demo synth</p>
+      <div className="soundToggle__desktop">
+        <p>Experience the sound:</p>
         <Switch
           uncheckedIcon={false}
           checkedIcon={false}

@@ -44,7 +44,21 @@ a:visited {
   color: #ffdd59;
 }
 
+.soundToggle__mobile {
+  display: hidden;
+  position: absolute;
+  left: -999em;
+}
+
 @media only screen and (max-width: 600px) {
+  .soundToggle__mobile {
+    display: relative;
+    position: relative;
+    left: 0em;
+    padding-top: 5vh;
+    color: #ffdd59;
+  }
+
   .Section {
     padding-top: 10vh;
     display: flex;

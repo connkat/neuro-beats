@@ -1,8 +1,4 @@
 .Nav {
-  /* position: fixed;
-  left: 0;
-  top: 0;
-  width: 95%; */
   display: flex;
   flex-direction: row;
   background-color: #081e3b;
@@ -38,19 +34,29 @@ h3 {
 
   .Nav {
     justify-content: center;
+    max-width: 80%;
   }
   .Nav h3 {
     display: hidden;
     position: absolute;
     left: -999em;
   }
+
+  .logo {
+    max-height: 80%;
+  }
+
+  .Nav .title {
+    font-size: smaller;
+  }
   .Nav .contact {
     display: hidden;
     position: absolute;
     left: -999em;
+    padding-bottom: 10vh;
   }
 
-  .soundToggle {
+  .soundToggle__desktop {
     display: hidden;
     position: absolute;
     left: -999em;

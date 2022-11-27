@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import Reveal from "react-reveal/Reveal";
+import Switch from "react-switch";
 
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
@@ -14,6 +15,7 @@ function App() {
   const [audio, setAudio] = useState(new Audio(song));
   // eslint-disable-next-line no-unused-vars
   const [isSoundToggle, setIsSoundToggle] = useState(false);
+  const [soundToggleChecked, setSoundToggleChecked] = useState(false);
 
   const handleSoundToggleToggle = (checked) => {
     if (checked) {
@@ -26,9 +28,24 @@ function App() {
 
     return checked;
   };
+
+  const handleSoundToggle = (checked) => {
+    setSoundToggleChecked(checked);
+    handleSoundToggleToggle(checked);
+  };
   return (
     <div className="App">
       <Nav soundToggleToggleHandler={handleSoundToggleToggle} />
+      <div className="soundToggle__mobile">
+        <h2>Experience the sound:</h2>
+        <Switch
+          uncheckedIcon={false}
+          checkedIcon={false}
+          name="soundToggle"
+          checked={soundToggleChecked}
+          onChange={handleSoundToggle}
+        />
+      </div>
       <Reveal left delay={100000} duration={5000}>
         <div className="Section">
           <img src="./images/emotiv.png" alt="emotiv" className="emotiv" />

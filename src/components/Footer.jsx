@@ -3,7 +3,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="Footer">
-      <div className="footer-logo">
+      <div className="footer-logos">
         <img
           src="./images/techstars.png"
           alt="techstars"
@@ -15,9 +15,15 @@ function Footer() {
           className="startup-weekend"
         />
       </div>
-      <a href="mailto:neurobeatsco@gmail.com" target="_blank" rel="noreferrer">
-        <p>Contact</p>
-      </a>
+      <div className="footer-text">
+        <a
+          href="mailto:neurobeatsco@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <p>Contact</p>
+        </a>
+      </div>
     </div>
   );
 }
