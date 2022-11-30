@@ -26,6 +26,10 @@ h3 {
   align-self: center;
 }
 
+.soundToggle__desktop {
+  align-self: center;
+}
+
 @media only screen and (max-width: 821px) {
   .title {
     align-self: center;
